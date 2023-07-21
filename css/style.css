@@ -63,7 +63,9 @@ font-size: 18px;
     color: rgb(149, 149, 78);
     font-size: 40px;
 }
-
+.homep {
+    background-color: yellow;
+}
 
 .fondocn{
     background-size: auto;
@@ -128,11 +130,16 @@ color: black;
 .contenedor-centrado{
     text-align: center;
     height: 50px;
-}
-
-.contenedor-centrado {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+}
+
+.hamburguesa {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    
 }
 .tituloser {
     margin: 0%;
@@ -219,13 +226,14 @@ footer{
     grid-area: grid-item-hijo6;
     display: flex ;
     justify-content: center; 
+    
 
 }
 @media screen and (max-width: 768px) {
 .grid-contenedor-padre {
     display: flex;
     flex-wrap: wrap;
-    
+    background-image: auto;
 }
 .grid-item-hijo1 {
     flex: 0 0 50%; 
@@ -247,9 +255,10 @@ footer{
     display: none;
 }
 .grid-item-hijo6 {
-    flex: 0 0 50%; 
-  padding: 10px;
-  box-sizing: border-box;
+  
+  height: 200px;
+  background-color:darksalmon;
+  position:relative;
 }
 
 .pderecho {
