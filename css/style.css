@@ -312,10 +312,14 @@ footer {
         font: size 10px; 
     }
  footer {
-        height: 25px;
+        height: 10px;
         width: 100%;
         position:fixed;
-        padding: 50px;
+        padding: 20px;
+    }
+    .contenedor-centrado2 {
+
+  
     }
     }
     
