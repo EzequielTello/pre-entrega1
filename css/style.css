@@ -134,6 +134,10 @@ color: black;
     justify-content: center;
     padding-bottom: 10px;
 }
+.contenedor-centrado1 {
+    height: 15px;
+    font-size: 25px;
+}
 
 .hamburguesa {
     display: flex;
@@ -257,7 +261,7 @@ footer{
 .grid-item-hijo6 {
   
   height: 200px;
-  background-color:darksalmon;
+  background-color: lightslategray;
   position:relative;
 }
 
@@ -302,12 +306,18 @@ footer {
     .contenedor-centrado {
         height: 50px;
     }
+    
+    
+    .contenedor-centrado1 {
+        height: 20px;
+        font-size: 12px;
+        padding-bottom: 30%;
+    }
     footer {
-        background-color: white;
-        height: 25px;
+        height: 10px;
         width: 100%;
         position:fixed;
-        padding: 1%;
+        padding: 20px;
     }
     }
 
