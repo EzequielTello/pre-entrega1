@@ -138,14 +138,7 @@ color: black;
     height: 15px;
     font-size: 25px;
 }
-<<<<<<< HEAD:css/style.css
-.contenedor-centrado1 {
-    height: 15px;
-    font-size: 25px;
-}
-=======
-    
->>>>>>> 4707a45188a9dd32ca3de79a88281ee2036c719e:css/styles.css
+
 
 .hamburguesa {
     display: flex;
@@ -314,22 +307,15 @@ footer {
     .contenedor-centrado {
         height: 50px;
     }
-<<<<<<< HEAD:css/style.css
-    
-    
+
     .contenedor-centrado1 {
         height: 20px;
         font-size: 12px;
         padding-bottom: 30%;
     }
     footer {
-=======
-    .contenedor-centrado1 {
-        height: 20px;
-        font: size 10px; 
-    }
- footer {
->>>>>>> 4707a45188a9dd32ca3de79a88281ee2036c719e:css/styles.css
+
+    
         height: 10px;
         width: 100%;
         position:fixed;
