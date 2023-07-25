@@ -20,7 +20,7 @@ margin: auto;
 margin-top: 100px;
 border-radius: 4px;
 font-family: lucida sans;
-color: white;
+color: $color-primario;
 
 }
 .formulario-contacto h3 {
@@ -43,14 +43,14 @@ font-size: 18px;
     background-color: rgb(20, 158, 112);
     border: none;
     padding: 26px;
-    color: white;
+    color: $color-primario;
     margin: 28px 0;
     font-size: 16px;
 
 }
 
 .link {
-    color: white;
+    color: $color-primario;
     font-size: 25px;
 }
 
