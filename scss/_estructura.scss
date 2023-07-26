@@ -163,8 +163,7 @@ color: $color-cuarto;
    background-color: $color-septimo;
 }
 .separador {
-    display: flex;
-  justify-content: center; /* Centra horizontalmente el contenido */
+    @include centrar-elemento;
   align-items: center; /* Centra verticalmente el contenido */
   
 }
@@ -246,25 +245,21 @@ footer{
 .grid-item-hijo3{
 
     grid-area: grid-item-hijo3;
-    display: flex ;
-    justify-content: center;
+    @include centrar-elemento;
     
 }
 .grid-item-hijo4{
     grid-area: grid-item-hijo4;
-    display: flex ;
-    justify-content: center;
+    @include centrar-elemento;
     align-items: stretch;
 }  
 .grid-item-hijo5{
     grid-area: grid-item-hijo5;
-    display: flex ;
-    justify-content: center; 
+    @include centrar-elemento;
 }
 .grid-item-hijo6{
     grid-area: grid-item-hijo6;
-    display: flex ;
-    justify-content: center; 
+    @include centrar-elemento;
     
 
 }
@@ -325,8 +320,7 @@ footer {
 }
 footer {
     grid-area: footer;
-    display: flex;
-    justify-content: center;
+    @include centrar-elemento;
     padding-top: 20px;
     position:fixed;
 } 
