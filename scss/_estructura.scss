@@ -1,3 +1,9 @@
+@mixin centrar-elemento {
+   
+    display: flex ;
+    justify-content: center; 
+  }
+
 *{
 
     margin: 0;
@@ -130,7 +136,7 @@ color: $color-cuarto;
 .contenedor-centrado{
     text-align: center;
     height: 50px;
-    //@include centrar-elemento;
+    @include centrar-elemento;
     padding-bottom: 10px;
     }
 .contenedor-centrado1 {
@@ -163,7 +169,7 @@ color: $color-cuarto;
    background-color: $color-septimo;
 }
 .separador {
-    //@include centrar-elemento;
+    @include centrar-elemento;
   align-items: center; /* Centra verticalmente el contenido */
   
 }
@@ -245,16 +251,16 @@ footer{
 .grid-item-hijo3{
 
     grid-area: grid-item-hijo3;
-    //@include centrar-elemento;
+    @include centrar-elemento;
     
 }
 .grid-item-hijo4{
     grid-area: grid-item-hijo4;
-    //@include centrar-elemento;
+    @include centrar-elemento;
     align-items: stretch;
 }  
 .grid-item-hijo5{
-    //@include centrar-elemento;
+    @include centrar-elemento;
     grid-area: grid-item-hijo5;
 }
 .grid-item-hijo6{

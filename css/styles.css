@@ -134,6 +134,8 @@ body {
 .contenedor-centrado {
   text-align: center;
   height: 50px;
+  display: flex;
+  justify-content: center;
   padding-bottom: 10px;
 }
 
@@ -168,6 +170,8 @@ body {
 }
 
 .separador {
+  display: flex;
+  justify-content: center;
   align-items: center; /* Centra verticalmente el contenido */
 }
 
@@ -246,14 +250,20 @@ footer {
 
 .grid-item-hijo3 {
   grid-area: grid-item-hijo3;
+  display: flex;
+  justify-content: center;
 }
 
 .grid-item-hijo4 {
   grid-area: grid-item-hijo4;
+  display: flex;
+  justify-content: center;
   align-items: stretch;
 }
 
 .grid-item-hijo5 {
+  display: flex;
+  justify-content: center;
   grid-area: grid-item-hijo5;
 }
 
