@@ -160,20 +160,20 @@ color: $color-cuarto;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    /* Definir la transición */
+    
     transition: background-color 0.3s ease;
 }
 
 .cabecera:hover {
-  /* Cambiar el color de fondo cuando se pase el cursor sobre el botón */
+  
    background-color: $color-septimo;
 }
 .separador {
     @include centrar-elemento;
-  align-items: center; /* Centra verticalmente el contenido */
+  align-items: center; 
   
 }
-/* estilos.css */
+
 .elemento {
     width: 120px;
     height: 120px;
@@ -343,7 +343,7 @@ footer {
     .contenedor-centrado1 {
         height: 20px;
         font: size 10px;
-         
+
     }
  footer {
         height: 50px;
