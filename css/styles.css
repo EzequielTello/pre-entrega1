@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -159,7 +160,38 @@ body {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  transform: rotate(360deg);
+  /* Definir la transición */
+  transition: background-color 0.3s ease;
+}
+
+.cabecera:hover {
+  /* Cambiar el color de fondo cuando se pase el cursor sobre el botón */
+  background-color: violet;
+}
+
+.separador {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+/* estilos.css */
+.elemento {
+  width: 120px;
+  height: 120px;
+  background-color: yellow;
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg); /* Comienza sin rotación */
+  }
+  100% {
+    transform: rotate(360deg); /* Termina con una rotación completa de 360 grados */
+  }
+}
+.animar {
+  animation: rotacion 4s linear infinite; /* Animación de 4 segundos, lineal y repetida infinitamente */
 }
 
 .subtitulos {
