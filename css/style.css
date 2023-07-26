@@ -1,3 +1,4 @@
+/*
 *{
 
     margin: 0;
@@ -8,7 +9,7 @@
 body {
 background-color: white;
 }
-.cabecerase {
+.cabecera {
 width: 50px;
 
 }
@@ -133,12 +134,11 @@ color: black;
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    }
+}
 .contenedor-centrado1 {
     height: 15px;
     font-size: 25px;
 }
-    
 
 .hamburguesa {
     display: flex;
@@ -307,18 +307,19 @@ footer {
     .contenedor-centrado {
         height: 50px;
     }
+    
+    
     .contenedor-centrado1 {
         height: 20px;
-        font: size 10px; 
+        font-size: 12px;
+        padding-bottom: 30%;
     }
- footer {
+    footer {
         height: 10px;
         width: 100%;
         position:fixed;
         padding: 20px;
     }
-    
     }
-    
 
-
+*/
