@@ -130,8 +130,7 @@ color: $color-cuarto;
 .contenedor-centrado{
     text-align: center;
     height: 50px;
-    display: flex;
-    justify-content: center;
+    @include centrar-elemento;
     padding-bottom: 10px;
     }
 .contenedor-centrado1 {
