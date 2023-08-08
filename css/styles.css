@@ -271,7 +271,7 @@ footer {
   grid-area: grid-item-hijo6;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 710px) {
   .grid-contenedor-padre {
     display: flex;
     flex-wrap: wrap;
@@ -623,7 +623,7 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 710px) {
   .grid-contenedor-padre {
     display: flex;
     flex-wrap: wrap;
