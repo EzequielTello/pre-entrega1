@@ -334,7 +334,7 @@
     position: fixed;
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 710px) {
     .imagenes {
       display: none;
     }
@@ -357,7 +357,7 @@
       padding-bottom: 40px;
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 711px) and (max-width: 1139px) {
 
   .grid-item-hijo6 {
         
@@ -373,9 +373,10 @@
     }
     .fondoprincipal {
       background-image: url(../img/fondo.jpg);
-      background-size:100%;
+      background-size:cover;
       background-repeat: no-repeat;
       background-position: center;
       
     }
   }
+  
