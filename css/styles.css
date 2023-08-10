@@ -271,7 +271,7 @@ footer {
   grid-area: grid-item-hijo6;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 768px) {
   .grid-contenedor-padre {
     display: flex;
     flex-wrap: wrap;
@@ -326,7 +326,7 @@ footer {
   position: fixed;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 767px) {
   .imagenes {
     display: none;
   }
@@ -423,7 +423,7 @@ body {
 }
 
 .ubicacion {
-  position: relative;
+  position: fixed;
 }
 
 .colors {
@@ -623,7 +623,7 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 768px) {
   .grid-contenedor-padre {
     display: flex;
     flex-wrap: wrap;
@@ -644,11 +644,11 @@ footer {
     padding: 10px;
     box-sizing: border-box;
   }
-  .grid-item-hijo5 {
-    display: none;
+  .pizquierdo {
+    float: left;
+    width: 100%;
   }
   .grid-item-hijo6 {
-    height: 200px;
     background-color: lightslategray;
     position: relative;
   }
@@ -689,8 +689,7 @@ footer {
     flex-direction: column;
   }
   .contenedor-centrado {
-    height: 50px;
-    padding-bottom: 10px;
+    height: 60px;
   }
   .contenedor-centrado1 {
     height: 20px;
@@ -700,19 +699,24 @@ footer {
     height: 10px;
     width: 100%;
     position: fixed;
-    padding-bottom: 40px;
+    padding-top: 8px;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 711px) and (max-width: 1139px) {
+  .ubicacion {
+    position: relative;
+  }
   .grid-item-hijo6 {
     padding: 20px;
   }
   footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
-    
   }
   .fondoprincipal {
     background-image: url(../img/fondo.jpg);
