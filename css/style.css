@@ -70,16 +70,27 @@ font-size: 18px;
     background-image: url(../img/carta\ natal.jpg);
 }
 
-.fondos {
-    background-image: url(../img/signos.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: antiquewhite;
-    width: 100%;
-    height: 100%;
+.ubicacion {
+    position:relative;
 }
+ .colors {
+    color: violet;
+    font-size: 60px;
+    font-family: impact;
+ }   
+
+.simbolo {
+    position: relative;
+    height: 200px;
+  }
+  
+  .simbolo img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-30%, 0%);
+  }
+  
 .fondop {
     background-color:rgb(220, 20, 97) ;
 }
