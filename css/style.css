@@ -1,3 +1,4 @@
+/*
 *{
 
     margin: 0;
@@ -8,7 +9,7 @@
 body {
 background-color: white;
 }
-.cabecerase {
+.cabecera {
 width: 50px;
 
 }
@@ -63,34 +64,25 @@ font-size: 18px;
     color: rgb(149, 149, 78);
     font-size: 40px;
 }
-
+.homep {
+    background-color: yellow;
+}
 
 .fondocn{
     background-size: auto;
     background-image: url(../img/carta\ natal.jpg);
 }
 
-.ubicacion {
-    position:relative;
+.fondos {
+    background-image: url(../img/signos.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
 }
- .colors {
-    color: violet;
-    font-size: 60px;
-    font-family: impact;
- }   
-
-.simbolo {
-    position: relative;
-    height: 200px;
-  }
-  
-  .simbolo img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-30%, 0%);
-  }
-  
 .fondop {
     background-color:rgb(220, 20, 97) ;
 }
@@ -104,6 +96,7 @@ font-size: 18px;
     background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: antiquewhite;
@@ -120,6 +113,7 @@ color: black;
 
 .imagenes {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 
 }
@@ -127,11 +121,20 @@ color: black;
 .contenedor-centrado{
     text-align: center;
     height: 50px;
-}
-
-.contenedor-centrado {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+}
+.contenedor-centrado1 {
+    height: 15px;
+    font-size: 25px;
+}
+
+.hamburguesa {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    
 }
 .tituloser {
     margin: 0%;
@@ -145,9 +148,17 @@ color: black;
 }
 .subtitulos {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
-
+.pderecho {
+    float: left;
+    width: 40%;
+}
+.pizquierdo {
+    float: right;
+    width: 35%;
+}
 
 footer{
     padding: 0,5%;
@@ -210,19 +221,62 @@ footer{
     grid-area: grid-item-hijo6;
     display: flex ;
     justify-content: center; 
+    
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
 .grid-contenedor-padre {
-    display: grid;
-    grid-template-areas: 
-    "grid-item-hijo2 grid-item-hijo1"
-    "grid-item-hijo3 grid-item-hijo3"
-    "grid-item-hijo4 grid-item-hijo4"
-    "grid-item-hijo5 grid-item-hijo5"
-    "grid-item-hijo6 grid-item-hijo6";
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 100px 100px auto auto 100px ;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: auto;
+}
+.grid-item-hijo1 {
+    flex: 0 0 50%; 
+  padding: 10px;
+  box-sizing: border-box; 
+}
+.grid-item-hijo2 {
+    flex: 0 0 50%; 
+    padding: 10px;
+    box-sizing: border-box; 
+}
+.grid-item-hijo3 {
+    flex: 0 0 50%; 
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.grid-item-hijo5 {
+    display: none;
+}
+.grid-item-hijo6 {
+  
+  height: 200px;
+  background-color: lightslategray;
+  position:relative;
+}
+
+.pderecho {
+    float: none;
+    width: 100%;
+    
+}
+footer {
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+}
+@media screen and (max-width: 767px) {
+.fondoprincipal  {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+      
     
 }
 footer {
@@ -230,6 +284,32 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    position: fixed;
+    position:fixed;
 } 
-}
+@media screen and (max-width: 767px) {
+    .imagenes {
+     display: none;
+    }
+    .subtitulos {
+     display:flex;
+     flex-direction: column;
+      }
+    .contenedor-centrado {
+        height: 50px;
+    }
+    
+    
+    .contenedor-centrado1 {
+        height: 20px;
+        font-size: 12px;
+        padding-bottom: 30%;
+    }
+    footer {
+        height: 10px;
+        width: 100%;
+        position:fixed;
+        padding: 20px;
+    }
+    }
+
+*/
